@@ -1,0 +1,13 @@
+<h1>Demo#index</h1>
+
+<p>Hello from hello!</p>
+
+<% @array.each do |n| %>
+ <%= n %><br />
+<% end %>
+
+<br />
+
+<%= link_to ("Go to hello","index") %>
+<br>
+<%= link_to ("Go to hello (using action)", {:action => 'index'}) %>
